@@ -17,7 +17,21 @@ let contactList = [
   ];
 
 router.get('/contacts', (req, res) => {
-    res.json(contactList)
+    let name = req.query.name
+    var chack = []
+
+    if (name) {
+        for (let i = 0; i < contactList.length; i++) {
+        if(contactList[i].name === name){
+          chack.push(contactList[i])
+          res.json(chack)
+        }
+    }
+        res.json('Not Found')
+    }
+    else{
+        res.json(contactList)
+    }
 })
 
 router.get('/contacts/:id', (req, res) => {
