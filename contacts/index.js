@@ -32,5 +32,11 @@ router.put('/contacts/:id', (req, res) => {
     res.status(200).json()
 })
 
+router.post('/contacts', (req, res) => {
+    let newContact = req.body
+    newContact.id = contactList.length
+    contactList.push(newContact)
+    res.status(201).json(newContact)
+})
 
 module.exports = router
