@@ -1,0 +1,23 @@
+{
+  "name": "web-tech-project",
+  "version": "1.0.0",
+  "description": "ฐิติกร ฉ่ำน้อย 58160564\r <br>ณัฐพล ศรีระษา 58660007\r <br>ธีรดนย์ ตะสูงเนิน 58160570\r <br>ธีรภัทร ยั่งยืน 58160074",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chamnoy/Web-Tech-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chamnoy/Web-Tech-Project/issues"
+  },
+  "homepage": "https://github.com/Chamnoy/Web-Tech-Project#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
